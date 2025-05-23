@@ -1,0 +1,18 @@
+"""
+Default configuration for MCP Server
+"""
+jenkins:
+  url: "http://localhost:8080"  # Demo URL, configurable for real instances
+  auth:
+    type: "token"  # or "basic"
+    username: ""
+    token: ""
+    password: ""
+
+logging:
+  level: "INFO"
+  file: "mcp_server.log"
+
+output:
+  xml_path: "output/jenkins_logs.xml"
+  pretty_print: true
